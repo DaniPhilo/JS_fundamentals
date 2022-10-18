@@ -2,14 +2,14 @@
 
 ## Numbers
 
-### 1. Write a function that calculates the area of a circle
+### 1. Escribe una función que calcule el área de un círculo.
 ```
 function areaOfCircle(PI, radius) {
 	return
 }
 ```
 
-**bonus track**:  Write a function that calculates the perimeter of a circle
+**bonus track**:  Escribe una función que calcule el perimetro de un círculo.
 ```
 function perimeterOfCircle(PI, radius) {
 
@@ -17,15 +17,15 @@ function perimeterOfCircle(PI, radius) {
 ```
 
 
-### 2. Write a function that calculates speed
+### 2. Escribe una función que calcule la velocidad.
 ```
-function calcSpeed(time, distance) {
+function calcSpeed(distance, time) {
 	return 
 }
 ```
 
 
-### 3. Write a function that calculates a random number in a given range
+### 3. Escribe una función que genere un número aleatorio en un rango dado (ambos incluidos).
 ```
 function randomNum(minNum, maxNum) {
 	return
@@ -33,27 +33,28 @@ function randomNum(minNum, maxNum) {
 ```
 
 
-### 4. Write a function that gets the max and min numbers in a list
-Answer must be a single string: "Max number is -maxNum- and Min number is -minNum-"
+### 4. Escribe una función que obtenga los números máximo y mínimo de una lista dada.
+La función deve devolver un único string: "Max number is `maxNum` and Min number is `minNum`".
 ```
-function getMax(1, 4, 7, 3, 9, 6) {
+function getMaxAndMin(8, 1, 4, 7, 3, 9, 6) {
 	return
 }
 ```
 
 
-### 5. Write a function that converts from km to miles (1 mile = 1.60934 km), and rounds it down
+### 5. Escribe una función que convierta km en millas (1 milla = 1.60934 km), y que redondee el resultado a la baja.
 ```
 function toMiles(num) {
 	return
 }
 ```
-**bonus track**:  Now, the result must be rounded to 2 decimals (there's a method for that: find it)
+**bonus track**:  Ahora, el resultado debe redondearse con 2 decimales (hay un método de numbers para eso: encuéntralo).
 
 
-### 6. Write a function that calculates the area of a square pyramid, given its base length and face height. The area of a pyramid is the sum of the area of its base plus the area of its faces.
-base length = 4cm
-face height = 8cm
+### 6. Escribe una función que calcule el área de un prisma de base cuadrada, dada la longitud del lado de su base y la altura de una de sus caras. El área de un prisma es la suma del área de su base más el área de todas sus caras.
+
+lado de la base = 4cm
+altura de las caras = 8cm
 
 ```
 function pyramidArea(length, height) {
@@ -65,46 +66,58 @@ function pyramidArea(length, height) {
 
 ## If / else if / else
 
-### 1. Write a function that accepts a number and returns a string stating whether the number is even or odd. 
- Expected result: `The number is [even]/[odd]`
+### 1. Escribe una función que acepte un número y devuelva un string afirmando si el número es par o impar.
+ Resultado esperado: `The number is [even]/[odd]`.
 
 
-### 2. Write a function that accepts two numbers and returns the largest one, or whether they are equal
- Expected result: `The largest number is [number]`
- Or: `The numbers are equal`
+### 2. Escribe una función que acepte dos números y devuelva cuál es el mayor, o bien si son iguales.
+ Resultado esperado: `The largest number is [number]`.
+ O: `The numbers are equal`.
 
 
-**bonus track**:  Now it has to accept 3 numbers
+**bonus track**:  Igual, pero ahora con tres números
 
 
-### 3. Write a function that accepts the length of the three sides of a triangle. It must then return whether the triangle is equilateral, scalene or isosceles
-Expected result: `The triangle is [equilateral]/[scalene]/[isosceles]`
+### 3. Escribe una función que acepte la longitud de los tres lados de un triángulo y devuelva si el triángulo es equilatero, escaleno o isósceles.
+Resultado esperado: `The triangle is [equilateral]/[scalene]/[isosceles]`.
 
 
-### 4. Write a function that checks whether a number is within a given range
+### 4. Escribe una función que determine si un número dado se encuentra dentro de un rango dado.
 ```
-function isInRange(start, end) {
+function isInRange(num, start, end) {
 	return [true]/[false]
 }
 ```
 
 
-### 5. Write a function that evaluates an arithmetic operation and returns its result
+### 5. Escribe una función que permita realizar cualquiera de las cuatro operaciones matemáticas básicas.
 ```
 function evalOperation(num1, num2, operation) {
 	return
 }
 ```
-Expected result:
-1.  Print result of `num1 + num2` if operation is “add”
-2.  Print result of `num1 - num2` if operation is “subtract”
-3.  Print result of `num1 * num2` if operation is “multiply”
-4.  Print result of `num1 / num2` if operation is “divide”
-5.  Print result of `num1 % num2` if operation is “modulus”
-6.  Else print `Invalid operation`
+Resultado esperado:
+1.  Devuelve el resultado de `num1 + num2` si la operación es “add”.
+2.  Devuelve el resultado de `num1 - num2` si la operación es “subtract”.
+3.  Devuelve el resultado de `num1 * num2` si la operación es “multiply”.
+4.  Devuelve el resultado de `num1 / num2` si la operación es “divide”.
+5.  Devuelve el resultado de `num1 % num2` si la operación es “modulus”.
+6.  Else print `Invalid operation`.
+
+- Ejemplo:
+````
+function evalOperation(2, 3, "add")
+````
+Debería devolver `5` (2 + 3).
+
+Pero:
+````
+function evalOperation(2, 3, "substract")
+````
+Debería devolver `-1` (2 - 3).
 
 
-### 6. Write a function that accepts a year and returns whether  it's a leap year or not
+### 6. Write a function that accepts a year and returns whether it's a leap year or not.
 ```
 function isLeapYear(year) {
 	return [true]/[false]
@@ -112,72 +125,72 @@ function isLeapYear(year) {
 ```
 
 
-### 7. Write a function that accepts the number of a month (1 - 12) and returns the number of days of said month.
-Expected result: `The month has [number of days] days`
+### 7. Escribe una función que acepte el número de mes (1 - 12) y devuelva el número de días de ese mes.
+Resultado esperado: `The month has [number of days] days`.
 
-**bonus track** Now the function accepts a month and a year, and should count with whether it's a leap year or not (use the function you wrote in ex. 6)
+**bonus track** Ahora, la función debe aceptar un mes y un año, y debe contar con que el año pueda ser bisiesto (usa la función que escribiste en el ej. 6).
 
 
 
 ## Arrays
 
-### 1. Take this array `["January", "February", "Marj", "April", "Mei"]`. 
+### 1. Crea el siguiente array: `["January", "February", "Marj", "April", "Mei"]`. 
 
-#### 1.1 There's a typo in "March" and "May". Fix it and assign the fixed array to a new variable called `fixedMonths`.
+#### 1.1 Hay dos meses mal escritos: "March" y "May". Modifica el array usando [] para solucionarlo.
 
-#### 1.2 Create a variable called `newMonths` and assign it this array:`["June", "July", "August", "September"]`.  Then write a function that returns a new array that is the concatenation of array from ex. 1 and this one. Assign it to a new variable called `totalMonths`.
+#### 1.2 Crea la variable `newMonths` y asígnale el siguiente array:`["June", "July", "August", "September"]`.  A continuación, escribe una función que devuelva un nuevo array que sea la concatenaciópn del array del ejercicio 1 y éste.ion that returns a new array that is the concatenation of array from ex. 1 and this one. Asigna el resultado a una nuev avariable, llamada `totalMonths`.
 
-#### 1.3 Push the last three months into the last array. One at a time.
+#### 1.3 Pushea los siguientes 3 meses en el array anterior (`totalMonths`).
 
 
 
-### 4. Make a function that accepts three numbers:
+### 4.Crea una función que acepte tres números:
 ```
 function changeArray(num1, num2, num3) {
 
 }
 ```
 
-### Now you will change `totalMonths` array:
-#### a) If the first number is greater than the second one, remove the last item of the array.
+### Ahora vamos a trabajar con el array `totalMonths`:
+#### a) Si el primer número es mayor que el segundo, elimina el último elemento del array.
 
-#### b) Or if the second number is greater than the third one, but less than `10`.
+#### b) O, si el segundo número es mayor que el tercero, pero menor que `10`, elimina el primer elemento del array.
 
-#### c) Or if second number is greater than the third one or greater than the first one, add the string `October` to the array.
+#### c) O, si el segundo número es mayor que el tercero o que el primero, añade el string `October` al final del array.
 
-#### d) If none of the above if true, print `Bad luck!`.
+#### d) Si nada de lo anterior es verdadero, print `Bad luck!`.
 
-#### e)  Print `totalMonths` array.
+#### e)  Print el array `totalMonths`.
 
-#### Call `changeArray(9,  7,  5)`
-#### Call `changeArray(4,  7,  5)`
-#### Call `changeArray(5, 24, 8)`
-#### Call `changeArray( 7, 7, 7)`
-
-
-### 5. Given this array: `['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']`
-
-#### 5.1 Make a function that:
-
-##### a) Finds the position of the string `Wednesday`.
-
-##### b) If the length of that string is greater than the position number, reverse the array.
+#### Llama a `changeArray(9,  7,  5)`
+#### Llama a `changeArray(4,  7,  5)`
+#### Llama a `changeArray(5, 24, 8)`
+#### Llama a `changeArray( 7, 7, 7)`
 
 
-#### 5.2 Make another function that:
+### 5. Dado el siguiente array: `['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']`
 
-##### a) Compares the length of the element in the first position, and the element in the second position.
+#### 5.1 Escribe una función que:
 
-##### b) If the first one is shorter than the second one, it sould print just the first three elements of the array.
+##### a) Encuentre la posición del string `Wednesday`.
 
-
-#### 5.3 Make another function that:
-
-##### a) Checks if the array includes the string `Sunday`.
-
-##### b) If true, print `That's nice!`.
-
-##### c) If not, print `Oh no!` and then add `Sunday` to the array.
+##### b) Si la longitud de ese string es mayor que el número de su posición, dale la vuelta al array.
 
 
-### 6. Make a function to reverse the string `"Paralelepípedo"`.
+#### 5.2 Escribe otra función que:
+
+##### a) Compare la longitud de los elementos en primera y segunda posición.
+
+##### b) Si el primero es más corto que el segundo, se debe hacer print de los tres primeros elementos del array (usa el método apropiado para cortar un trozo del array).
+
+
+#### 5.3 Escribe otra función que:
+
+##### a) Compruebe si el array incluye el string `Sunday`.
+
+##### b) Si es así, print `That's nice!`.
+
+##### c) Si no, print `Oh no!` y añade `Sunday` al final del array.
+
+
+### 6. Escribe una función que le de la vuelta al string `"Paralelepípedo"`.

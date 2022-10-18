@@ -9,6 +9,7 @@ let x = 5;
 
 // if (x === 0) { console.log("Third if statement"); }
 
+
 // ELSE IF:
 // if (x === 0) {console.log("First if statement");}
 
@@ -27,6 +28,8 @@ let x = 5;
 
 // console.log(evalNum(5))
 
+
+// DOUBLE RETURN
 // const greaterThan = (num) => {
 //     if (9 > num) {
 //         return console.log('Num is bigger than 0');

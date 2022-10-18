@@ -26,26 +26,3 @@ let x = 5;
 // }
 
 // console.log(sayHello(5))
-
-const totalMonths = ["January", "February", "Marj", "April", "Mei", "June", "July", "August", "September"];
-
-const changeArray = (num1, num2, num3) => {
-    if (num1 > num2) {
-        totalMonths.pop();
-    }
-    else if (num2 > num3 && num2 < 10) {
-        totalMonths.shift();
-    }
-    else if (num2 > num3 || num2 > num1) {
-        totalMonths.push("October");
-    }
-    else {
-        console.log("Bad luck!");
-    }
-    console.log(totalMonths)
-}
-
-changeArray(9, 7, 5)
-changeArray(4, 7, 5)
-changeArray(5, 24, 8)
-changeArray(8, 8, 8)

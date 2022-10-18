@@ -117,7 +117,7 @@ function evalOperation(2, 3, "substract")
 Debería devolver `-1` (2 - 3).
 
 
-### 6. Write a function that accepts a year and returns whether it's a leap year or not.
+### 6. Escribe una función que devuelva si un año dado es año bisiesto o no.
 ```
 function isLeapYear(year) {
 	return [true]/[false]
@@ -162,10 +162,10 @@ function changeArray(num1, num2, num3) {
 
 #### e)  Print el array `totalMonths`.
 
-#### Llama a `changeArray(9,  7,  5)`
-#### Llama a `changeArray(4,  7,  5)`
-#### Llama a `changeArray(5, 24, 8)`
-#### Llama a `changeArray( 7, 7, 7)`
+#### Llama a `changeArray(9,  7,  5)` // ['January', 'February', 'Marj', 'April', 'Mei', 'June', 'July', 'August']
+#### Llama a `changeArray(4,  7,  5)` // ['February', 'Marj', 'April', 'Mei', 'June', 'July', 'August']
+#### Llama a `changeArray(5, 24, 8)` // ['February', 'Marj', 'April', 'Mei', 'June', 'July', 'August', 'October']
+#### Llama a `changeArray( 7, 7, 7)` // "Bad luck!"
 
 
 ### 5. Dado el siguiente array: `['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']`

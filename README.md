@@ -9,7 +9,7 @@ function areaOfCircle(PI, radius) {
 }
 ```
 
-**bonus track** Write a function that calculates the perimeter of a circle
+**bonus track**:  Write a function that calculates the perimeter of a circle
 ```
 function perimeterOfCircle(PI, radius) {
 
@@ -48,7 +48,7 @@ function toMiles(num) {
 	return
 }
 ```
-**bonus track** Now, the result must be rounded to 2 decimals (there's a method for that: find it)
+**bonus track**:  Now, the result must be rounded to 2 decimals (there's a method for that: find it)
 
 
 ### 6. Write a function that calculates the area of a square pyramid, given its base length and face height. The area of a pyramid is the sum of the area of its base plus the area of its faces.
@@ -74,7 +74,7 @@ function pyramidArea(length, height) {
  Or: `The numbers are equal`
 
 
-**bonus track** Now it has to accept 3 numbers
+**bonus track**:  Now it has to accept 3 numbers
 
 
 ### 3. Write a function that accepts the length of the three sides of a triangle. It must then return whether the triangle is equilateral, scalene or isosceles

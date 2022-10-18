@@ -97,12 +97,12 @@ function evalOperation(num1, num2, operation) {
 }
 ```
 Resultado esperado:
-1.  Devuelve el resultado de `num1 + num2` si la operación es “add”.
-2.  Devuelve el resultado de `num1 - num2` si la operación es “subtract”.
-3.  Devuelve el resultado de `num1 * num2` si la operación es “multiply”.
-4.  Devuelve el resultado de `num1 / num2` si la operación es “divide”.
-5.  Devuelve el resultado de `num1 % num2` si la operación es “modulus”.
-6.  Else print `Invalid operation`.
+1.  Print el resultado de `num1 + num2` si la operación es “add”.
+2.  Print el resultado de `num1 - num2` si la operación es “subtract”.
+3.  Print el resultado de `num1 * num2` si la operación es “multiply”.
+4.  Print el resultado de `num1 / num2` si la operación es “divide”.
+5.  Print el resultado de `num1 % num2` si la operación es “modulus”.
+6.  Si no se cumple ninguna de las anteriores, print `Invalid operation`.
 
 - Ejemplo:
 ````
@@ -136,7 +136,7 @@ Resultado esperado: `The month has [number of days] days`.
 
 ### 1. Crea el siguiente array: `["January", "February", "Marj", "April", "Mei"]`. 
 
-#### 1.1 Hay dos meses mal escritos: "March" y "May". Modifica el array usando [] para solucionarlo.
+#### 1.1 Hay dos meses mal escritos: `March` y `May`. Modifica el array usando `[]` para solucionarlo.
 
 #### 1.2 Crea la variable `newMonths` y asígnale el siguiente array:`["June", "July", "August", "September"]`.  A continuación, escribe una función que devuelva un nuevo array que sea la concatenaciópn del array del ejercicio 1 y éste.ion that returns a new array that is the concatenation of array from ex. 1 and this one. Asigna el resultado a una nuev avariable, llamada `totalMonths`.
 

@@ -138,7 +138,7 @@ Resultado esperado: `The month has [number of days] days`.
 
 #### 1.1 Hay dos meses mal escritos: `March` y `May`. Modifica el array usando `[]` para solucionarlo.
 
-#### 1.2 Crea la variable `newMonths` y asígnale el siguiente array:`["June", "July", "August", "September"]`.  A continuación, escribe una función que devuelva un nuevo array que sea la concatenaciópn del array del ejercicio 1 y éste. Asigna el resultado a una nuev avariable, llamada `totalMonths`.
+#### 1.2 Crea la variable `newMonths` y asígnale el siguiente array:`["June", "July", "August", "September"]`.  A continuación, escribe una función que devuelva un nuevo array que sea la concatenación del array del ejercicio 1 y éste. Asigna el resultado a una nueva variable, llamada `totalMonths`.
 
 #### 1.3 Pushea los siguientes 3 meses en el array anterior (`totalMonths`).
 
@@ -154,9 +154,9 @@ function changeArray(num1, num2, num3) {
 ### Ahora vamos a trabajar con el array `totalMonths`:
 #### a) Si el primer número es mayor que el segundo, elimina el último elemento del array.
 
-#### b) O, si el segundo número es mayor que el tercero, pero menor que `10`, elimina el primer elemento del array.
+#### b) O bien, si el segundo número es mayor que el tercero, pero menor que `10`, elimina el primer elemento del array.
 
-#### c) O, si el segundo número es mayor que el tercero o que el primero, añade el string `October` al final del array.
+#### c) O bien, si el segundo número es mayor que el tercero o que el primero, añade el string `October` al final del array.
 
 #### d) Si nada de lo anterior es verdadero, print `Bad luck!`.
 

@@ -194,3 +194,11 @@ function changeArray(num1, num2, num3) {
 
 
 ### 6. Escribe una función que le de la vuelta al string `"Paralelepípedo"`.
+
+
+### 7. Escribe una función `swap` que tome un array de length 2 y cambie el orden de sus elementos.
+Ejemplo:  
+La función `swap([a, b])` debe devolver `[b, a]`.
+
+
+**bonus track**: Este ejercicio puede resolverse de dos maneras: usando un método de array (de cuyo nombre no quiero acordarme), o programando el cambio manualmente, sin usar ningún método de array. Si has resuelto el ejercicio usando un método de array, trata de hacerlo sin usarlo; si lo has resuelto "a mano", busca el método de array que te ayudaría a resolverlo.

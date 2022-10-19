@@ -53,7 +53,7 @@ function toMiles(num) {
 
 ### 6. Escribe una función que calcule el área de un prisma de base cuadrada, dada la longitud del lado de su base y la altura de una de sus caras. El área de un prisma es la suma del área de su base más el área de todas sus caras.
 
-lado de la base = 4cm
+lado de la base = 4cm \n
 altura de las caras = 8cm
 
 ```

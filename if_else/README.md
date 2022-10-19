@@ -96,6 +96,10 @@ const ciudadano = age >= 18 ? true : false;
 console.log(ciudadano); // true
 ```
 
+Links útiles:
+- [Sentencias condicionales en JS](https://www.freecodecamp.org/espanol/news/javascript-if-else-y-if-then-sentencias-condicionales-en-js/#:~:text=El%20if...else%20es,false%20en%20las%20sentencias%20if%20.).
+- [MDN: if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else).
+
 
 # Ejercicios de If / else if / else
 

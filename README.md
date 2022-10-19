@@ -162,9 +162,9 @@ function changeArray(num1, num2, num3) {
 
 #### e)  Print el array `totalMonths`.
 
-#### Llama a `changeArray(9,  7,  5)` // ['January', 'February', 'Marj', 'April', 'Mei', 'June', 'July', 'August']
-#### Llama a `changeArray(4,  7,  5)` // ['February', 'Marj', 'April', 'Mei', 'June', 'July', 'August']
-#### Llama a `changeArray(5, 24, 8)` // ['February', 'Marj', 'April', 'Mei', 'June', 'July', 'August', 'October']
+#### Llama a `changeArray(9,  7,  5)` // ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November']
+#### Llama a `changeArray(4,  7,  5)` // ['February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+#### Llama a `changeArray(5, 24, 8)` // ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December', 'October']
 #### Llama a `changeArray( 7, 7, 7)` // "Bad luck!"
 
 

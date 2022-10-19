@@ -134,7 +134,7 @@ console.log(cities); // ["Barcelona", "Valencia"]
 ### splice()
 El método splice() cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.  
 El primer parámetro indica la posición (índice) en el que realizar el cambio.  
-El segundo parámetro indica cuántos elementos (si hay alguno) deben eliminarse a partir de la posición indicada en el anterior parámetro.
+El segundo parámetro indica cuántos elementos (si hay alguno) deben eliminarse a partir de la posición indicada en el anterior parámetro.  
 El tercer parámetro indica qué elemento se va a introducir en el array en el índice indicado pior el primer parámetro.
 ```
 const months = ['Jan', 'March', 'April', 'June'];

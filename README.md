@@ -138,7 +138,7 @@ Resultado esperado: `The month has [number of days] days`.
 
 #### 1.1 Hay dos meses mal escritos: `March` y `May`. Modifica el array usando `[]` para solucionarlo.
 
-#### 1.2 Crea la variable `newMonths` y asígnale el siguiente array:`["June", "July", "August", "September"]`.  A continuación, escribe una función que devuelva un nuevo array que sea la concatenaciópn del array del ejercicio 1 y éste.ion that returns a new array that is the concatenation of array from ex. 1 and this one. Asigna el resultado a una nuev avariable, llamada `totalMonths`.
+#### 1.2 Crea la variable `newMonths` y asígnale el siguiente array:`["June", "July", "August", "September"]`.  A continuación, escribe una función que devuelva un nuevo array que sea la concatenaciópn del array del ejercicio 1 y éste. Asigna el resultado a una nuev avariable, llamada `totalMonths`.
 
 #### 1.3 Pushea los siguientes 3 meses en el array anterior (`totalMonths`).
 

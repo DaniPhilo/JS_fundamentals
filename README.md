@@ -1,5 +1,9 @@
 # JS Fundamentals Exercises
 
+## [Ejercicios de If/else if/else](./if_else/README.md#ejercicios-de-if--else-if--else).
+
+## [Ejercicios de Arrays](./arrays/README.md#ejercicios-de-arrays).
+
 ## Numbers
 
 ### 1. Escribe una función que calcule el área de un círculo.
@@ -61,75 +65,3 @@ function pyramidArea(length, height) {
 	return
 }
 ```
-
-
-
-## If / else if / else
-
-### 1. Escribe una función que acepte un número y devuelva un string afirmando si el número es par o impar.
- Resultado esperado: `The number is [even]/[odd]`.
-
-
-### 2. Escribe una función que acepte dos números y devuelva cuál es el mayor, o bien si son iguales.
- Resultado esperado: `The largest number is [number]`.
- O: `The numbers are equal`.
-
-
-**bonus track**:  Igual, pero ahora con tres números
-
-
-### 3. Escribe una función que acepte la longitud de los tres lados de un triángulo y devuelva si el triángulo es equilatero, escaleno o isósceles.
-Resultado esperado: `The triangle is [equilateral]/[scalene]/[isosceles]`.
-
-
-### 4. Escribe una función que determine si un número dado se encuentra dentro de un rango dado.
-```
-function isInRange(num, start, end) {
-	return [true]/[false]
-}
-```
-
-
-### 5. Escribe una función que permita realizar cualquiera de las cuatro operaciones matemáticas básicas.
-```
-function evalOperation(num1, num2, operation) {
-	return
-}
-```
-Resultado esperado:
-1.  Print el resultado de `num1 + num2` si la operación es “add”.
-2.  Print el resultado de `num1 - num2` si la operación es “subtract”.
-3.  Print el resultado de `num1 * num2` si la operación es “multiply”.
-4.  Print el resultado de `num1 / num2` si la operación es “divide”.
-5.  Print el resultado de `num1 % num2` si la operación es “modulus”.
-6.  Si no se cumple ninguna de las anteriores, print `Invalid operation`.
-
-- Ejemplo:
-````
-function evalOperation(2, 3, "add")
-````
-Debería devolver `5` (2 + 3).
-
-Pero:
-````
-function evalOperation(2, 3, "substract")
-````
-Debería devolver `-1` (2 - 3).
-
-
-### 6. Escribe una función que devuelva si un año dado es año bisiesto o no.
-```
-function isLeapYear(year) {
-	return [true]/[false]
-}
-```
-
-
-### 7. Escribe una función que acepte el número de mes (1 - 12) y devuelva el número de días de ese mes.
-Resultado esperado: `The month has [number of days] days`.
-
-**bonus track** Ahora, la función debe aceptar un mes y un año, y debe contar con que el año pueda ser bisiesto (usa la función que escribiste en el ej. 6).
-
-
-
-## [Ejercicios de Arrays](./arrays/README.md#ejercicios-de-arrays)

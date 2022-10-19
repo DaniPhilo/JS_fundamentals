@@ -58,14 +58,14 @@ Cuando escribimos funciones, debemos retornar un valor de la función usando `re
 
 Ejemplo:
 ```
-// function evalNum(num) {
-//     if (num > 0) {
-//         return console.log('Num es mayor que 0');
-//     }
-//     if (num > 5) {
-//         return console.log('Num es mayor que 5');
-//     }
-// }
+function evalNum(num) {
+    if (num > 0) {
+        return console.log('Num es mayor que 0');
+    }
+    if (num > 5) {
+        return console.log('Num es mayor que 5');
+    }
+}
 
 // evalNum(10);
 ```
@@ -80,12 +80,12 @@ condicion ? si la condicion es verdadera : si la condicion es falsa
 
 Ejemplo:
 ```
-// function evalNum(num) {
-//     return num > 5 ? true : false;
-// }
+function evalNum(num) {
+    return num > 5 ? true : false;
+}
 
-// evalNum(10); // devuelve `true`;
-// evalNum(3); // devuelve `false`;
+evalNum(10); // devuelve `true`;
+evalNum(3); // devuelve `false`;
 ```
 
 Ten en cuenta que puede usarse para declarar variables también:

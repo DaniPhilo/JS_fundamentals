@@ -1,6 +1,6 @@
 // *** DIFFERENCE BETWEEN IF AND ELSE IF ***
 
-let x = 5;
+// let x = 5;
 
 // IF:
 // if (x === 0) { console.log("First if statement"); }
@@ -17,7 +17,7 @@ let x = 5;
 
 // else if (x === 0) {console.log("Second else if statement");}
 
-// const evalNum = (num) => {
+// function evalNum(num) {
 
 //     if (num === 5) { console.log("Number is equal to 5"); }
 
@@ -30,7 +30,7 @@ let x = 5;
 
 
 // DOUBLE RETURN
-// const greaterThan = (num) => {
+// function greaterThan(num) {
 //     if (9 > num) {
 //         return console.log('Num is bigger than 0');
 //     }
@@ -40,3 +40,11 @@ let x = 5;
 // }
 
 // greaterThan(5);
+
+
+// TERNARY OPERATOR
+// function isEven(num) {
+//     return num % 2 === 0 ? true : false
+// }
+
+// isEven(10)

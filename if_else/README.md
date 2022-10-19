@@ -51,7 +51,7 @@ else {
     console.log("Has suspendido");
 }
 ```
-En este caso, la condición del primer `if` no se cumple, por lo que pasa al `if else`. Al cumplirse esta condición, se ejecutaría ese bloque de código.
+En este caso, la condición del primer `if` no se cumple, por lo que pasa al `else if`. Al cumplirse esta condición, se ejecutaría ese bloque de código.
 
 ### Doble `return`
 Cuando escribimos funciones, debemos retornar un valor de la función usando `return`. Este `return` no sólo sirve para devolver un valor: también finaliza la ejecución de la misma inmediatamente.

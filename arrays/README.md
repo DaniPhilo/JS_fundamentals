@@ -1,14 +1,14 @@
 # Teoría: Arrays
 
 ## ¿Qué es un array?
-Podemos pensar en un array como una colección de elementos que pueden almacenarse bajo una única variable (más info [aqiuí](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)). Los arrays tienen las siguientes propiedades, entre otras:
+Podemos pensar en un array como una colección de elementos que pueden almacenarse bajo una única variable (más info [aquí](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)). Los arrays tienen las siguientes propiedades, entre otras:
 - Pueden albergar diferentes tipos de datos (strings, numbers, booleans, objects... u otros arrays).
 - Su longitud (length) puede variarse, haciéndolo más corto o más largo.
 - Los arrays tienen índices que señalan la posición de los diversos elementos que contienen. La primera posición tiene índice 0, la segunda 1, etc.
 - Los arrays tienen una serie de métodos que nos permiten realizar diferentes operaciones con ellas.
 
 
-## Declaración de un array
+## Declaración de un array
 Un array puede declararse de diversas formas. La más sencilla es hacerlo asignándolo directamente a una variable:
 ```
 const myArray = ["red", 22, true];
@@ -57,7 +57,7 @@ const cities = ["Madrid", "Barcelona"];
 console.log(cities.indexOf("Madrid")); // 0
 ```
 
-### includes()
+#### includes()
 Devuelve un booleano en función de si el array contiene, o no, el elemento por el que hemos preguntado:
 ```
 const cities = ["Madrid", "Barcelona"];

@@ -21,7 +21,7 @@ if (grade >= 5) {
     console.log('Has aprobado!')
 }
 else {
-    console.log('Has suspendido...)
+    console.log('Has suspendido...')
 }
 ```
 
@@ -38,11 +38,11 @@ if (la condición 1 es verdadera) {
 ```
 
 Ejemplo:
-```
+```javascript
 const grade = 9.5;
 
 if (grade >= 5 && grade <= 8) {
-    console.log('Has aprobado!);
+    console.log("Has aprobado!");
 }
 else if (grade >= 9) {
     console.log("Has sacado muy buena nota!!");
@@ -57,7 +57,7 @@ En este caso, la condición del primer `if` no se cumple, por lo que pasa al `el
 Cuando escribimos funciones, debemos retornar un valor de la función usando `return`. Este `return` no sólo sirve para devolver un valor: también finaliza la ejecución de la misma inmediatamente.
 
 Ejemplo:
-```
+```javascript
 function evalNum(num) {
     if (num > 0) {
         return console.log('Num es mayor que 0');
@@ -79,7 +79,7 @@ condicion ? si la condicion es verdadera : si la condicion es falsa
 ```
 
 Ejemplo:
-```
+```javascript
 function evalNum(num) {
     return num > 5 ? true : false;
 }
@@ -89,7 +89,7 @@ evalNum(3); // devuelve `false`;
 ```
 
 Ten en cuenta que puede usarse para declarar variables también:
-```
+```javascript
 const age = 23;
 const ciudadano = age >= 18 ? true : false;
 
@@ -120,15 +120,15 @@ Resultado esperado: `The triangle is [equilateral]/[scalene]/[isosceles]`.
 
 
 ### 4. Escribe una función que determine si un número dado se encuentra dentro de un rango dado.
-```
+```javascript
 function isInRange(num, start, end) {
-	return [true]/[false]
+	return // [true]/[false]
 }
 ```
 
 
 ### 5. Escribe una función que permita realizar cualquiera de las cuatro operaciones matemáticas básicas.
-```
+```javascript
 function evalOperation(num1, num2, operation) {
 	return
 }
@@ -142,22 +142,22 @@ Resultado esperado:
 6.  Si no se cumple ninguna de las anteriores, print `Invalid operation`.
 
 - Ejemplo:
-````
+````javascript
 function evalOperation(2, 3, "add")
 ````
 Debería devolver `5` (2 + 3).
 
 Pero:
-````
+````javascript
 function evalOperation(2, 3, "substract")
 ````
 Debería devolver `-1` (2 - 3).
 
 
 ### 6. Escribe una función que devuelva si un año dado es año bisiesto o no.
-```
+```javascript
 function isLeapYear(year) {
-	return [true]/[false]
+	return // [true]/[false]
 }
 ```
 

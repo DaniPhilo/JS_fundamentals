@@ -4,7 +4,7 @@
 Las sentencias (statements) `if...else` son una instrucción que nos permite manejar la toma de decisiones de nuestro código. Podemos pensar en ellos como en controladores de toma de decisioines.
 
 En una sentencia `if...else`, decidiremos si un bloque de código va a ejecutarse en función de una condición (`if`), que debe ser siempre verdadera (`true`). En caso de que sea falsa (`false`), no se ejecutará ese bloque, y podremos decidir qué se ejecuta en su lugar (`else`).
-```
+```javascript
 if (condicion es verdadera) {
    // el código se ejecuta
 } else {
@@ -14,7 +14,7 @@ if (condicion es verdadera) {
 
 ## Ejemplos
 En este ejemplo, al ser la nota mayor o igual que 5, se ejecutará la instrucción que se encuentra dentro del bloque `if`. De lo contrario, se ejecutaría la instrucción presente en `else`.
-```
+```javascript
 const grade = 7;
 
 if (grade >= 5) {

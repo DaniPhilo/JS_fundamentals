@@ -101,6 +101,19 @@ const cat = {
 console.log(Object.entries(cat)); // [["name", "Patty"], ["legs", 4]]
 ```
 
+## Borrar una propiedad de un objeto
+No existe ningún método para borrar propiedades de objetos, pero sí existe el operador `delete`:
+```javascript 
+const cat = {
+    name: "Patty",
+    legs: 4
+}
+
+delete cat.legs;
+
+console.log(cat); // { name: "Patty" }
+```
+
 ## Acceder a un objeto con `[]`
 A veces no podemos acceder a los valores de un objeto usando el punto (`user.name`, `user.age`). Veamos un ejemplo:
 ```javascript

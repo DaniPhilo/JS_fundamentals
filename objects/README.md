@@ -91,8 +91,7 @@ console.log(Object.values(cat)); // ["Patty", 4]
 ```
 
 ### entries()
-Devuelve un array que contiene las keys y values del objeto:
-Devuelve un array con las **keys** del objeto:
+Devuelve un array que contiene las keys y values del objeto. Cada par de key / value viene en su propio array, por lo que es un array bidimensional (un array con arrays dentro):
 ```javascript
 const cat = {
 	name: "Patty",
@@ -101,3 +100,58 @@ const cat = {
 
 console.log(Object.entries(cat)); // [["name", "Patty"], ["legs", 4]]
 ```
+
+## Acceder a un objeto con `[]`
+A veces no podemos acceder a los valores de un objeto usando el punto (`user.name`, `user.age`). Veamos un ejemplo:
+```javascript
+const user = {
+    "name" = "Paco",
+    "lastName-1": "García",
+    "lastName-2": "López"
+}
+```
+Si usáramos el punto para acceder a la propiedad `lastName-1`, JS lo leería como una resta y devolvería NaN (not a number), ya que se estaría intentando restar 1 a lastName:
+```javascript
+console.log(user.lastName-1); // NaN
+```
+Lo mismo ocurriría si quisiérmos acceder usando una variable:
+```javascript
+const user = {
+    "name" = "Paco"
+}
+
+const prop = "name";
+
+console.log(user.prop); // undefined
+```
+Para estos casos, podemos usar `[]` para acceder a los valores del objeto:
+```javascript
+const user = {
+    "name" = "Paco",
+    "lastName-1": "García",
+    "lastName-2": "López"
+}
+
+const prop = "name"
+
+console.log(user[prop]); // "Paco"
+console.log(user["lastName-1"]); // "García"
+```
+
+## Loopear un objeto
+Dado que los objetos no tienen índices cómo los arrays, puede parecer que no son iterables con un bucle que recorra todas sus propiedades. Pero, esto no es así. Ya hemos visto el método `keys()` que devuelve un array con todas las claves del objeto. Podemos usar ese array para loopear el objeto y sacar todos sus valores:
+```javascript
+const user = {
+    name: "John",
+	lastname: "Doe",
+	age: 24,
+	isMarried: false
+}
+
+const keys = Object.keys(user);
+
+for (let i = 0; i < keys.length; i++) {
+    console.log(user[keys[i]]);
+}
+```
+Este script irá imprimiendo por consola todos los valores del objeto, usando cada **key** para acceder a ellos.

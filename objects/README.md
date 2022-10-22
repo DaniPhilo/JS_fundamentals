@@ -1,9 +1,9 @@
 # Objetos
 
 ## ¿Qué es un objeto?
-Un objeto es un tipo de dato de JavaScript que sirve para almacenar otros datos (strings, numbers, booleans, arrays, etc.). Sin embargo, los objetos tienen ciertas particularidades.  
-A diferencia de los arrays, los objetos no tienen índices para ordenar los datos en su interior y, por lo tanto, tampoco tienen lenght.   
-¿Cómo se estructuran los datos dentro de un objeto, entonces? Mediante pares de key / value, es decir, asignando a cada valor un nombre que lo identifica:
+Un objeto es un **tipo de dato** de JavaScript que sirve para almacenar otros datos (strings, numbers, booleans, arrays, etc.). Sin embargo, los objetos tienen ciertas particularidades.  
+A diferencia de los arrays, los objetos **no tienen índices** para ordenar los datos en su interior y, por lo tanto, **tampoco tienen lenght**.   
+¿Cómo se estructuran los datos dentro de un objeto, entonces? Mediante pares de **key / value**, es decir, asignando a cada valor un nombre que lo identifica:
 ```javascript
 const user = {
 	name: "John",

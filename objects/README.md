@@ -98,7 +98,7 @@ const cat = {
 	legs: 4
 }
 
-console.log(Object.entries(cat)); // [["name", "Patty"], ["legs", 4]]
+console.log(Object.entries(cat)); // [["name", "Patty"], ["legs", 4]]#
 ```
 
 ## Borrar una propiedad de un objeto
@@ -172,22 +172,22 @@ Este script irá imprimiendo por consola todos los valores del objeto, usando ca
 
 # Ejercicios de Objetos
 
-## 1. Crea un objeto llamado `citizen1` y dale las propiedades `name`, `lastname` y `age`. Elige tú los valores.
+### 1. Crea un objeto llamado `citizen1` y dale las propiedades `name`, `lastname` y `age`. Elige tú los valores.
 
-## 2. Una vez creado, añádele la propiedad `city`, con el valor que tú quieras, y cambia el valor de la propiedad `age`. Comprueba que los cambios han surtido efecto.
+### 2. Una vez creado, añádele la propiedad `city`, con el valor que tú quieras, y cambia el valor de la propiedad `age`. Comprueba que los cambios han surtido efecto.
 
-## 3. Crea una función `checkCitizenship` que acepte como parámetro un objeto, compruebe la edad del ciudadano y, si ésta es mayor de `18`, añada la propiedad `canVote: true`; de lo contrario, debe añadir `canVote: false`. Usála con el objeto `citizen1`.
+### 3. Crea una función `checkCitizenship` que acepte como parámetro un objeto, compruebe la edad del ciudadano y, si ésta es mayor de `18`, añada la propiedad `canVote: true`; de lo contrario, debe añadir `canVote: false`. Usála con el objeto `citizen1`.
 
-## 4. Crea una función llamada `createCitizen`que acepte 3 strings: nombre, apellido y edad. Esta función debe:
+### 4. Crea una función llamada `createCitizen`que acepte 3 strings: nombre, apellido y edad. Esta función debe:
     a) Comprobar si los tres parámetros son válidos (no son strings vacíos). Si no son válidos, debe retornar un aviso de que los parámetros son inválidos.
     b) Si los parámetros son válidos, debe retornar un objeto usando como modelo `citizen1`.
 
-## 5. Crea una variable `citizen2` y asígnale como valor el resultado de la función anterior con los parámetros que desees.
+### 5. Crea una variable `citizen2` y asígnale como valor el resultado de la función anterior con los parámetros que desees.
 
-## 6. Crea una función `checkVoting` que acepte como parámetro un objeto, compruebe si el objeto en cuestión tiene la propiedad `canVote` y retorne el resultado.
+### 6. Crea una función `checkVoting` que acepte como parámetro un objeto, compruebe si el objeto en cuestión tiene la propiedad `canVote` y retorne el resultado.
 
-## 7. Modifica la función `checkVoting` para que, si el resultado es negativo (si el objeto no tiene la propiedad `canVote`), se llame a la función `checkCitizenship`. Úsala con `citizen2` y comprueba que funciona.
+### 7. Modifica la función `checkVoting` para que, si el resultado es negativo (si el objeto no tiene la propiedad `canVote`), se llame a la función `checkCitizenship`. Úsala con `citizen2` y comprueba que funciona.
 
-## 8. Crea la función `showValues` que acepte un objeto e itere sobre él imprimiendo cada uno de sus valores. Pásale a la función `citizen1` y comprueba que funciona.
+### 8. Crea la función `showValues` que acepte un objeto e itere sobre él imprimiendo cada uno de sus valores. Pásale a la función `citizen1` y comprueba que funciona.
 
-## 9. Crea la función `deleteLastProp` que acepte un objeto y, si tiene más de 4 propiedades, elimine la última. Si tiene 4 o menos, debe devolver `false`. Pruébala con los objetos `citizen1` y `citizen2`.
+### 9. Crea la función `deleteLastProp` que acepte un objeto y, si tiene más de 4 propiedades, elimine la última. Si tiene 4 o menos, debe devolver `false`. Pruébala con los objetos `citizen1` y `citizen2`.

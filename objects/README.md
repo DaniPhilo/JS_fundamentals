@@ -179,8 +179,8 @@ Este script irá imprimiendo por consola todos los valores del objeto, usando ca
 ### 3. Crea una función `checkCitizenship` que acepte como parámetro un objeto, compruebe la edad del ciudadano y, si ésta es mayor de `18`, añada la propiedad `canVote: true`; de lo contrario, debe añadir `canVote: false`. Usála con el objeto `citizen1`.
 
 ### 4. Crea una función llamada `createCitizen`que acepte 3 strings: nombre, apellido y edad. Esta función debe:
-    a) Comprobar si los tres parámetros son válidos (no son strings vacíos). Si no son válidos, debe retornar un aviso de que los parámetros son inválidos.
-    b) Si los parámetros son válidos, debe retornar un objeto usando como modelo `citizen1`.
+a) Comprobar si los tres parámetros son válidos (no son strings vacíos). Si no son válidos, debe retornar un aviso de que los parámetros son inválidos.
+b) Si los parámetros son válidos, debe retornar un objeto usando como modelo `citizen1`.
 
 ### 5. Crea una variable `citizen2` y asígnale como valor el resultado de la función anterior con los parámetros que desees.
 

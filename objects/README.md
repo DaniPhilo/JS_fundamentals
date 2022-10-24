@@ -151,6 +151,36 @@ console.log(user[prop]); // "Paco"
 console.log(user["lastName-1"]); // "García"
 ```
 
+## Métodos propios
+Podemos crear métodos propios o customizados para el objeto que deseemos. Para ello, simplemente creamos una propiedad que contenga una función:
+```javascript
+const user = {
+	name: "John",
+	lastname: "Doe",
+	greet: function() {
+		console.log(`Hi, I'm ${this.name} ${this.lastname}.`);
+	}
+}
+
+console.log(user.greet()); // "Hi, I'm John Doe."
+```
+Como puedes ver, hemos creado una función dentro de `greet` que imprime por consola el nombre y apellidos del objeto.  
+
+Ahora bien, **¿qué es `this`?**.
+
+Dado que en el interior de la función `greet` queremos imprimir el `name`y `lastname` del objeto user, necesitamos `user.name` y `user.lastname`. Ahora bien, ya estamos en el interior del objeto `user`, dado que la función `greet` forma parte del objeto. Por eso podemos usar `this`.
+
+`This` nos permite acceder al objeto dentro del cual estamos, y, por lo tanto a todas sus propiedades usando la sintaxis `this.prop`. Recuerda que sólo puedes usar `this` **dentro** de un objeto para referirse a sí mismo; no puedes usarla fuera de él:
+```javascript
+const user = {
+	name: "John",
+	lastname: "Doe"
+}
+
+console.log(this.name); // Error
+```
+
+
 ## Loopear un objeto
 Dado que los objetos no tienen índices cómo los arrays, puede parecer que no son iterables con un bucle que recorra todas sus propiedades. Pero, esto no es así. Ya hemos visto el método `keys()` que devuelve un array con todas las claves del objeto. Podemos usar ese array para loopear el objeto y sacar todos sus valores:
 ```javascript

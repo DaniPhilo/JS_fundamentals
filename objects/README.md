@@ -193,14 +193,14 @@ b) Si los parámetros son válidos, debe retornar un objeto usando como modelo `
 
 ### 9. Crea la función `deleteLastProp` que acepte un objeto y, si tiene más de 4 propiedades, elimine la última. Si tiene 4 o menos, debe devolver `false`. Pruébala con los objetos `citizen1` y `citizen2`.
 
-## 10. Fight Club
+### 10. Fight Club
 
-### 10.1 Crea dos objetos llamados Tyler y Chuck. Dales las propiedades `name`, `HP` y `damage`: Tyler tendrá 100 `HP` y 15 de `damage`; Chuck tendrá 80 `HP`y 10 de `damage`.
+#### 10.1 Crea dos objetos llamados Tyler y Chuck. Dales las propiedades `name`, `HP` y `damage`: Tyler tendrá 100 `HP` y 15 de `damage`; Chuck tendrá 80 `HP`y 10 de `damage`.
 
-### 10.2 Crea en cada uno de los objetos un método `attack` que acepte otro objeto y le reste a su `HP` los puntos de `damage` del objeto atacante.
+#### 10.2 Crea en cada uno de los objetos un método `attack` que acepte otro objeto y le reste a su `HP` los puntos de `damage` del objeto atacante.
 
-### 10.3 Comprueba que funcione: ¡haz que luchen!
+#### 10.3 Comprueba que funcione: ¡haz que luchen!
 
-### 10.4 Ahora vamos a automatizar la lucha: crea la función `fight` que acepte dos objetos y haga que el primero ataque al segundo hasta que su `HP` sea menor o igual a 0. La función debe contabilizar el número de ataques que ha tardado en derrotar el primer objeto al segundo y mostrarlos por la consola: "{name1} ha derrotado a {name2} en {numberOfAttacks} rondas.".
+#### 10.4 Ahora vamos a automatizar la lucha: crea la función `fight` que acepte dos objetos y haga que el primero ataque al segundo hasta que su `HP` sea menor o igual a 0. La función debe contabilizar el número de ataques que ha tardado en derrotar el primer objeto al segundo y mostrarlos por la consola: "{name1} ha derrotado a {name2} en {numberOfAttacks} rondas.".
 
-### 10.5 Recuerda: la primera regla del Club de la Lucha, es que nadie habla del Club de la Lucha...
+#### 10.5 Recuerda: la primera regla del Club de la Lucha, es que nadie habla del Club de la Lucha...

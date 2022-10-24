@@ -151,7 +151,7 @@ console.log(user[prop]); // "Paco"
 console.log(user["lastName-1"]); // "García"
 ```
 
-## Métodos propios
+## Métodos propios y `this`
 Podemos crear métodos propios o customizados para el objeto que deseemos. Para ello, simplemente creamos una propiedad que contenga una función:
 ```javascript
 const user = {

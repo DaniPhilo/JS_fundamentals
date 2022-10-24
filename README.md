@@ -14,4 +14,4 @@
 
 ## [Teoría: Objetos](./objects/README.md#¿qué-es-un-objeto).
 
-## [Ejercicios de Objetos](./objects/README.md#ejercicios-de-objetos).
+## [Ejercicios de Objetos](./objects/README.md#ejercicios-de-objetos).

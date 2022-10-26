@@ -219,7 +219,7 @@ b) Si los parámetros son válidos, debe retornar un objeto usando como modelo `
 
 ### 7. Modifica la función `checkVoting` para que, si el resultado es negativo (si el objeto no tiene la propiedad `canVote`), se llame a la función `checkCitizenship`. Úsala con `citizen2` y comprueba que funciona.
 
-### 8. Crea la función `showValues` que acepte un objeto e itere sobre él imprimiendo cada uno de sus valores. Pásale a la función `citizen1` y comprueba que funciona.
+### 8. Crea la función `showValues` que acepte un objeto e itere sobre él imprimiendo cada uno de sus valores. Pásale a la función el objeto `citizen1` y comprueba que funciona.
 
 ### 9. Crea la función `deleteLastProp` que acepte un objeto y, si tiene más de 4 propiedades, elimine la última. Si tiene 4 o menos, debe devolver `false`. Pruébala con los objetos `citizen1` y `citizen2`.
 

@@ -211,7 +211,7 @@ Este script irá imprimiendo por consola todos los valores del objeto, usando ca
 ### 4. Crea una función llamada `createCitizen`que acepte 3 argumentos: nombre, apellido y edad. Esta función debe:
 a) Comprobar si los tres parámetros son válidos (no están vacíos o igual a 0). Si no son válidos, debe retornar un aviso de que los parámetros son inválidos.  
 
-b) Si los parámetros son válidos, debe retornar un objeto usando como modelo `citizen1`.
+b) Si los parámetros son válidos, debe retornar un objeto usando como modelo `citizen1`, es decir, debe tener las mismas keys (`name`, `lastname` y `age`), y coomo valor los paramétros que se le pasen a la función.
 
 ### 5. Crea una variable `citizen2` y asígnale como valor el resultado de la función anterior con los parámetros que desees.
 
